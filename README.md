@@ -36,7 +36,7 @@ repository).
 
 | Detail | Value |
 |---|---|
-| Developer | Seam Uddin |
+| Developer | Codefotech |
 | Support email | privora@codefotech.com |
 | Privacy policy effective date | 23 November 2026 |
 
