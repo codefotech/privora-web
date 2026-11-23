@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privora Privacy Policy</title>
+  <meta name="description" content="How the Privora Android app handles your data: it works only on your phone, has no internet permission and collects nothing.">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<main>
+  <header class="brand">
+    <svg viewBox="0 0 100 100" aria-hidden="true">
+      <path fill="#123354" d="M50,4 L88,17 L88,47 C88,71 71,88 50,96 C29,88 12,71 12,47 L12,17 Z"/>
+      <path fill="#ffffff" fill-opacity="0.06" d="M50,4 L12,17 L12,47 C12,71 29,88 50,96 Z"/>
+      <path fill="none" stroke="#42C6D9" stroke-opacity="0.65" stroke-width="2.5" stroke-linejoin="round" d="M50,4 L88,17 L88,47 C88,71 71,88 50,96 C29,88 12,71 12,47 L12,17 Z"/>
+      <path fill="none" stroke="#F4F8FC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M38,70 L38,28 L51,28 A13,13 0 0,1 51,54 L38,54"/>
+      <circle cx="51" cy="41" r="4" fill="#42C6D9"/>
+    </svg>
+    <div>
+      <div class="name">Privora</div>
+      <div class="tag">Know what your apps access</div>
+    </div>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective 23 November 2026 · Applies to the Privora app for Android</p>
+
+  <div class="summary">
+    <ul>
+      <li>Privora works only on your phone. It has <strong>no internet permission</strong>, so it can't send anything anywhere.</li>
+      <li>There is no account, no advertising, no analytics and no crash reporting.</li>
+      <li>We don't collect any data, and nothing is shared with anyone.</li>
+    </ul>
+  </div>
+
+  <h2>Who we are</h2>
+  <p>Privora is published by Seam Uddin. If you have a question about this policy, write to <a href="mailto:privora@codefotech.com">privora@codefotech.com</a>.</p>
+
+  <h2>What Privora reads on your phone, and why</h2>
+  <p>Privora explains which apps on your phone can access sensitive things, so you can review them in Android's own settings. To do that, it reads the following from Android, on your phone:</p>
+  <ul>
+    <li><strong>Installed apps:</strong> each app's name, package name, version, the store or app that installed it, when it was installed, whether it is a system app, and the Android version it was built for.</li>
+    <li><strong>Permissions:</strong> the permissions each app requests, and whether Android reports them as granted.</li>
+    <li><strong>Special access:</strong> the apps Android lists for accessibility, notification access, device admin, keyboards, VPN, display over other apps, all files access, usage access, installing unknown apps, alarms and reminders, and battery optimization, plus your default SMS and phone apps.</li>
+    <li><strong>Basic device details:</strong> the phone's maker and model, its Android version and its security patch level.</li>
+  </ul>
+  <p>Privora does <strong>not</strong> read your messages, call logs, contacts, photos, files, location, notifications, passwords or what you type. It only reads <em>which apps have access</em> to them.</p>
+
+  <h2>Permissions Privora asks for</h2>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Permission</th><th>Why</th></tr>
+    <tr><td>See all installed apps (<code>QUERY_ALL_PACKAGES</code>)</td><td>So Privora can list every app on your phone, including apps without a home-screen icon, and explain what each one can access.</td></tr>
+    <tr><td>Read installed apps (<code>com.android.permission.GET_INSTALLED_APPS</code>)</td><td>Some phone makers require it before an app can see the app list. Privora asks for it only when you tap <em>Analyze now</em>, after a screen that explains why.</td></tr>
+    <tr><td>Notifications (<code>POST_NOTIFICATIONS</code>)</td><td>Only if you turn on Privora Watch, so it can tell you when an app gains new access.</td></tr>
+    <tr><td>Run at startup and keep the phone awake briefly (<code>RECEIVE_BOOT_COMPLETED</code>, <code>WAKE_LOCK</code>)</td><td>Used by Android's job scheduler so Privora Watch's hourly check resumes after a restart and can finish once started.</td></tr>
+  </table>
+  </div>
+  <p>Privora has no internet permission.</p>
+
+  <h2>Where your data is kept, and for how long</h2>
+  <ul>
+    <li><strong>Analysis results</strong> are saved in Privora's private storage on your phone, so you can compare analyses over time. Privora keeps the last 20 analyses and deletes older ones automatically.</li>
+    <li><strong>Privora Watch</strong> is optional and off until you turn it on. When it is on, Privora keeps a list of the apps and access it saw at the last check, to spot changes, and up to 500 records of changes it found.</li>
+    <li><strong>Settings</strong>, such as light or dark theme, are saved on your phone.</li>
+    <li>Privora's data is excluded from Android's cloud backup and from device-to-device transfer, so it stays on this phone.</li>
+  </ul>
+
+  <h2>Sharing</h2>
+  <p>Privora doesn't share data with anyone. It contains no third-party code that collects data, and we, the developers, never receive or see your data.</p>
+
+  <h2>Your choices, and deleting your data</h2>
+  <ul>
+    <li>In Privora, open <strong>Settings → Clear local analysis history</strong> to delete saved analyses and Privora Watch records.</li>
+    <li>Turn off Privora Watch in Privora's Settings at any time.</li>
+    <li>In Android, <strong>Settings → Apps → Privora → Storage → Clear storage</strong> deletes all of Privora's data.</li>
+    <li>Uninstalling Privora deletes all of its data from your phone.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Privora is not directed at children under 13. It collects no personal data from anyone, including children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, we will update this page and the effective date above. Changes that affect how data is handled will also be described in the app's release notes.</p>
+
+  <h2>Contact</h2>
+  <p>Seam Uddin · <a href="mailto:privora@codefotech.com">privora@codefotech.com</a></p>
+
+  <footer><a href="../">Privora</a> · <a href="../support/">Support</a></footer>
+</main>
+</body>
+</html>
